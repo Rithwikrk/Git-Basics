@@ -1,0 +1,57 @@
+Basics of git ::
+
+Git - Version Control tool[vcs] --> Used to save the file & create versions.
+Git-Hub - Source code management tool [scm] --> Vcs pushes to scm , so it will be in remote and every-one can access and downlaod the code.
+
+VCS : Git
+SCM : Git-hub
+............................
+
+Advatages of VCS :
+-Collaboration : shared workspace & real-time updates
+-Manage-version : All version codes are preserved
+-Roll-back : easy roll back from current version to previous
+-Reduce-downtime : Reverse faulty updates and save time
+-Analyse project : analyse and compare version
+
+............................
+
+Centralized VCS and Distributed VCS 
+
+- without network we cant run this Centralized vcs.(older-method)
+-eg : team-function, Sub-version
+
+-- we can edit the code without the network, because of local repo.
+-- eg : git, Mercury
+
+.....................................
+
+Git features :
+
+- economical
+- Non linear support
+- snapshot
+- Distributed - every user having his own copy of required data stored in locally.
+- speed of git much faster compared to other vcs
+- robustness
+- integrity (no changes can be done without git recording it)
+- branching 
+
+..........................................................
+
+git clone - downloading a particular repo to any local.
+
+command : git clone https/ssh link
+
+.........................................................
+
+Notes : In generally in organisation we will use ssh(secure shell).
+
+dis-advantages of https : for each push we need to submit user-name & password
+
+Notes : whenever we joined a company --> dont use desktop or download folder for work ,
+use --> User/your-home-space(create a new-folder with your name) --> create workspace folder.
+example direction : User/Rithwik/workspace/devops-git practice
+
+.................................................................................................
+

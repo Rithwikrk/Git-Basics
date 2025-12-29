@@ -1,0 +1,20 @@
+We need to complete the below topics :
+
+- git status,add,commit,push,remote
+- branching
+- Push & Pull requests.
+- Git Pull vs Git fetch
+- git cherry-pick
+- git rm --cached
+- git reset 
+- git stash
+- git merge & rebase
+- git hook
+- About PAT tokens
+- About Readme and documentation
+- git .ignore
+- git submodules
+
+- Migration to Git-lab
+
+- 
