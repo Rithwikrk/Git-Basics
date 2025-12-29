@@ -1,0 +1,31 @@
+What is ssh in git and why its used insted of https ?
+
+ssh - secure shell host
+
+https - uses username & password for each push.
+ssh - it uses keys (public and private keys)
+
+- connecting host with help of public-keys [ host : machine that want to connect ]
+- with the help of public key , private key control the host and communicate.
+
+..............................
+
+for ssh connection in system :
+
+in local (VS-code) --> terminal : ssh-keygen [for new key-generation]
+-passphrase : password for ssh keys (up to you)
+
+code - this cmd will open a new code window
+
+code location-of-key :
+it will open a new window --> name.pub - which-one has .pub extension it will be your public-key
+the other one will be private key.(with-out extension)
+
+copy the public-key --> go to git-hub--> settings --> SSH&GPG keys :
+give a title , paste the public-key then add ssh.
+
+after this connection setup - copy the SSH link --> go to local terminal : git clone ssh-link folder_name
+
+connection will be done.
+
+..................................................
