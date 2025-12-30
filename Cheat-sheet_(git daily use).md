@@ -1,5 +1,7 @@
 # Git-Github Cheatsheet
 
+🧑‍💻Author : Rithwik_Ramakrishnan
+
 ### Basic Setup 
 
  command | use
